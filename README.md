@@ -1,7 +1,6 @@
 # The Observer Pattern
 
-<img src="/public/assets/observer-pattern.png" alt="Observer Pattern Structure"/>
-
+<img src="/public/observer-pattern.png" alt="Observer Pattern Structure"/>
 
 The "Observer" design pattern is used when identifying a 1:n dependency, where multiple modules depend on information from a common module.
 
@@ -9,7 +8,7 @@ To avoid the repeated and costly implementation of verifiers that constantly loo
 
 **Structure**
 
-<img src="/public/assets/observer-uml.png" alt="Observer Pattern UML Diagram"/>
+<img src="/public/observer-uml.png" alt="Observer Pattern UML Diagram"/>
 
 The central module is called **Subject** and is implemented using the "Singleton" pattern to maintain a single instance of this module and centralize access to it. This module has the state(s) and a list of observers as an attribute, which holds all observers who register to receive notifications from this module.
 
