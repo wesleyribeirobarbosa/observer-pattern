@@ -2,7 +2,7 @@ import Observer from './observer';
 import Subject from './subject';
 
 export default class Observer3 implements Observer {
-  subject: Subject;
+  private subject: Subject;
 
   constructor(subject: Subject) {
     this.subject = subject;
