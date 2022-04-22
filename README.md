@@ -3,7 +3,7 @@
 <img src="/public/observer-pattern.png" alt="Observer Pattern Structure"/>
 
 
-The "Observer" design pattern is used when identifying a 1:n dependency, where multiple modules depend on information from a common module.
+The "Observer" is a **Behavioral** Design Pattern used when identifying a 1:n dependency, where multiple modules depend on information from a common module.
 
 To avoid the repeated and costly implementation of verifiers that constantly look for state changes in their dependent module, the Observer pattern proposes the implementation of a "core" module that retains both the state to be updated and a list of **"observers"**, and which when receiving a status update, notifies the **"observers"** so that they can then perform their due procedures.
 
